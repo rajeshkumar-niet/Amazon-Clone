@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 65px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 115px;
+
+}
+
+.logo {
+    background-image: url(/img/amazon_logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 100px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 3px solid white;
+}
+
+.fisrt-add {
+    color: #cccccc;
+    font-size: 0.8;
+    margin-left: 12px;
+}
+
+.sec-add {
+    color: #ffffff;
+    font-size: 1;
+    margin-left: 2px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 650px;
+    /* background-color: blanchedalmond; */
+    border-radius: 3px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select {
+    background-color: #e6e6e6;
+    width: max-content; /* Corrected width property */
+    text-align: center;
+    height: 38px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1.1rem;
+    border: none;
+    padding: 7px 10px 10px 0px;
+}
+
+.search-icon {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(236, 198, 12);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.lang{
+    padding: 8px;
+}
+
+span{
+    font-size: 0.8rem;
+}
+.nav-sec{
+    font-weight: 600;
+}
+.signin .nav-return{
+    padding: 0px 9px 10px 0px;
+}
+.cart-logo i{
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
+/* PANEL CSS */
+.panel{
+    display: flex;
+    background-color: #232f3e;
+    align-items: center;
+}
+.panel .all{
+    display: flex;
+    color: #ffffff;
+    padding: 8px 9px;
+    margin: 5px 0px 6px;
+}
+.panel .all p{
+    padding: 0px 0px 0px 5px;
+}
+.panel-option{
+    color: #ffffff;
+    display: flex;
+}
+.panel-option p{
+    padding: 8px 9px;
+    margin: 5px 0px 6px;
+}
+
+/* HREO_SECTION */
+.hero-section{
+    background-image: url(/img/hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg p{
+    background-color: #ffffff;
+    color: black;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* shop-section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D0DBDD;
+    flex-wrap: wrap;
+}
+.boxes{
+    width: 23%;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: blue;
+}
+/* Footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #232f3e;
+    color: #cccccc;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 1.2rem;
+}
+.foot-panel1 a{
+    color: #cccccc;
+    text-decoration: none;
+}
+.foot-panel1:hover{
+    background-color: #232f3eeb;
+    cursor: pointer;
+}
+.foot-panel2{
+    background-color: #1e242a;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #ffffff;
+
+}
+
+.foot-panel2 ul{
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.foot-panel2 ul li {
+    margin-top: 10px;
+    text-decoration: none;
+}
+.foot-panel2 ul li a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.88rem;
+}
+.foot-panel2 ul li :hover {
+   cursor: pointer;
+}
+
+.foot-panel3{
+    background-color: #1e242a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.7px solid wheat;
+}
